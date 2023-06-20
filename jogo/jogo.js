@@ -48,8 +48,9 @@ CarregarJogo()
 
 function responder(valor) {
     if (valor == Todasperguntas[i].opc) {
-        alert('Parabéns você acertou')
+        alert('uhmmm parabens acertou')
         Pontuacao++
+        document.getElementById('player').innerHTML = localStorage.getItem('player')
         document.getElementById('score').innerHTML = `Score: ${Pontuacao}`
         CarregarJogo()
     } else {
