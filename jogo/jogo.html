@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div><img src="Group 11.png" class="img" alt=""></div>
+        <div><a class="entrar" href="/index/index.html">Sair</a></div>
+    </header>
+
+    <main class="tudo">
+        <div class="ponto">
+            <p id="score">Score:</p>
+        </div>
+        <div class="pergunta">
+            <h1 id="resultadopergunta"></h1>
+            <img src="" id="img" class="imagem">
+        </div>
+        <div class="botoes">
+
+            <div class="botoes1">
+                <button onclick="responder(1)" class="button" id="btnR1">
+                    <p id="res1"></p>
+                </button>
+                <button onclick="responder(2)" class="button" id="btnR2">
+                    <p id="res2"></p>
+                </button>
+            </div>
+        </div>
+        <div class="botoes2">
+            <button onclick="responder(3)" class="button" id="btnR3">
+                <p id="res3"></p>
+            </button>
+            <button onclick="responder(4)" class="button" id="btnR4">
+                <p id="res4"></p>
+            </button>
+        </div>
+        </div>
+        <section id="pagFinal" class="hide">
+            <h1 id="idH1" class="hide">Você terminou o jogo !</h1>
+            <p id="pontoFinal" class="hide">Seu número de pontos foi:</p>
+            <a href="/jogo/jogo.html" class="entrar">Voltar para o inicio do Jogo</a>
+        </section>
+    </main>
+    <script src="/jogo/jogo.js"></script>
+</body>
+
+</html>

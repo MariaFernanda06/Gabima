@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de prguntas</title>
+    <link rel="stylesheet" href="/cadastro de perguntas/perguntas.css">
+
+</head>
+
+<body>
+    <header>
+        <div><a href="/jogo/jogo.html" class="entrar">Ir para Jogo</a></div>
+    </header>
+    <section>
+        <div class="h1log">
+            <h1>Cadastro de pergunta</h1>
+        </div>
+        <table>
+            <tr>
+                <td class="tdText">Pergunta:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="pergunta" placeholder="Digite sua pergunta" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Imagem:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="link" placeholder="Coloque o link da imagem" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Resposta 1:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="R1" placeholder="Digite a 1ª resposta" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Resposta 2:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="R2" placeholder="Digite a 2ª resposta" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Resposta 3:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="R3" placeholder="Digite a 3ª resposta" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Resposta 4:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="R4" placeholder="Digite a 4ª resposta" class="loginpt"></td>
+            </tr>
+        </table>
+        <div class="select">
+            <select name="Resposta correta" id="opc">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button onclick="CadastrarQuiz()" class="entrar">Cadastrar</button>
+        </div>
+    </section>
+    <footer>
+        <h3>Sesi / Senai - Curso Desenvolvimento de Sistemas</h3>
+    </footer>
+    <script defer src="/cadastro de perguntas/perguntas.js"></script>
+
+</body>
+
+</html>

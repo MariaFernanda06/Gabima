@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/login/login.css">
+   
+</head>
+
+<body>
+    <section>
+        <div class="h1log">
+            <h1>Login</h1>
+        </div>
+        <table>
+            <tr>
+                <td class="tdText">Usuário ou email:</td>
+            </tr>
+            <tr>
+                <td><input type="email" id="login" placeholder="Digite seu nome de usuário" class="loginpt"></td>
+            </tr>
+            <tr>
+                <td class="tdText">Senha:</td>
+            </tr>
+            <tr>
+                <td><input type="password" id="senha" placeholder="Digite a senha" class="loginpt"></td>
+            </tr>
+        </table>
+        <div class="bot">
+            <button onclick="botaoEntrar()" class="entrar">Entrar</button>
+            <button onclick="botaoCadastrar()" class="entrar">Cadastrar</button>
+        </div>
+    </section>
+    <script defer src="/login/login.js"></script>
+    <footer>
+        <h3>Sesi / Senai - Curso Desenvolvimento de Sistemas</h3>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+:root {
+    --cor-branca: white;
+    --cor-section: rgba(67, 19, 157, 0.377);
+    --cor-preto: black;
+    --cor-botao: rgba(188, 187, 187, 0.182);
+    --cor-input: rgba(208, 199, 199, 0.318);
+}
+
+body {
+    background: rgb(0, 27, 255);
+    background: linear-gradient(90deg, rgba(0, 27, 255, 1) 10%, rgba(255, 0, 0, 1) 90%);
+}
+
+.h1log {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preto);
+}
+
+header{
+    text-align: right;
+    color: var(--cor-branca);
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+section {
+    margin: 0 auto;
+    background-color: var(--cor-section);
+    max-width: 440px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px var(--cor-preto);
+    color: var(--cor-branca);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+}
+
+input {
+    margin: 10px;
+    color: var(--cor-branca);
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: var(--cor-input);
+    border: none;
+    margin-left: 20px;
+    box-shadow: 2px 2px 3px var(--cor-preto);
+}
+
+input::placeholder {
+    color: var(--cor-branca);
+}
+
+.entrar {
+    background-color: var(--cor-botao);
+    color: var(--cor-branca);
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.entrar:hover {
+    background-color: var(--cor-section);
+    transition: 1;
+}
+
+
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tdText{
+    text-shadow: 2px 2px 3px var(--cor-preto);
+}
+
+select{
+    padding: 4px;
+    border-radius: 6px;
+    background-color: var(--cor-botao);
+    box-shadow: 2px 2px 3px var(--cor-preto);
+    border: none;
+    color: var(--cor-branca);
+}
+
+select>option{
+    color: black;
+    background-color: var(--cor-botao);
+}
+
+.select{
+    text-align: center;
+}
+
+footer {
+    color: var(--cor-branca);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cor-preta);
+}

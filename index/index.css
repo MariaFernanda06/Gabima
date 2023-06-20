@@ -1,0 +1,62 @@
+
+body {
+    background: rgb(0, 27, 255);
+    background: linear-gradient(90deg, rgba(0, 27, 255, 1) 10%, rgba(255, 0, 0, 1) 90%);
+}
+
+:root {
+    --cor-branca: white;
+    --cor-section: rgba(67, 19, 157, 0.377);
+    --cor-botao: rgba(188, 187, 187, 0.182);
+}
+
+.gabima {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.centro {
+    color: var(--cor-branca);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.inputs{
+    text-align: center;
+    border: 0;
+    margin: auto;
+
+}
+.cabecalho{
+  text-align: right;
+  border: 8px 10px 8px ;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border-color: var(--cor-branca);
+}
+
+.entrar {
+    background-color: var(--cor-botao);
+    color: var(--cor-branca);
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+   
+}
+
+.entrar:hover {
+    background-color: var(--cor-section);
+    transition: 1;
+}
+
+.jogo{
+    text-align: center;
+}
